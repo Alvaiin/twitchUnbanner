@@ -10,11 +10,11 @@ import SearchChannelPage from './pages/SearchChannelPage'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/twitchUnbanner/',
     element: <AuthenticationPage />
   },
   {
-    path: '/searchChannel',
+    path: '/twitchUnbanner/searchChannel',
     element: <SearchChannelPage />
   }
 ])
