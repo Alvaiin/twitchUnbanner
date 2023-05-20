@@ -9,7 +9,7 @@ const AuthenticationPage = (): JSX.Element => {
   return (
     <div className='flex flex-col min-h-screen justify-center'>
       <h1 className='mb-20'>Ingresa con tu cuenta de Twitch para ver los usuarios baneados de los canales que moderas</h1>
-      <a href={`https://id.twitch.tv/oauth2/authorize?client_id=${clientId}&redirect_uri=http://localhost:5173/searchChannel&response_type=token&scope=${scope}`}>
+      <a href={`https://id.twitch.tv/oauth2/authorize?client_id=${clientId}&redirect_uri=https://alvaiin.github.io/twitchUnbanner/searchChannel&response_type=token&scope=${scope}`}>
         <Button disabled={false}>Ingresa</Button>
       </a>
     </div>
